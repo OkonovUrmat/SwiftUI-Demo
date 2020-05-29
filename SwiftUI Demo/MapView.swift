@@ -9,10 +9,19 @@
 import SwiftUI
 import MapKit
 
-struct MapView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct MapView: UIViewRepresentable {
+    
+    func makeUIView(context: UIViewRepresentableContext<MapView>) -> MKMapView {
+        MKMapView()
     }
+    
+    func updateUIView(_ uiView: MapView.UIViewType, context: UIViewRepresentableContext<MapView>) {
+        let coordinate = CLLocationCoordinate2D(latitude: 40.5201019, longitude: 72.7379569)
+        let span =  MKCoordinateSpan(latitudeDelta: 2.0, longitudeDelta: 2.0)
+        let region  = MKCoordinateRegion(center: coordinate, span: span)
+        uiView.setRegion(region, animated: true)
+    }
+    
 }
 
 struct MapView_Previews: PreviewProvider {
