@@ -10,17 +10,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Welcome to Osh")
-                .font(.title)
-            HStack {
-                Text("Sulaiman-Too")
-                    .font(.subheadline)
-                Text("Oshinghtom City")
-                    .font(.subheadline)
-            }
-        }.padding()
         
+        VStack {
+            //Map
+            MapView()
+                .frame(height: 300)
+            
+            //Image
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
+            VStack(alignment: .leading) {
+                Text("Welcome to Osh")
+                    .font(.title)
+                HStack {
+                    Text("Sulaiman-Too")
+                        .font(.subheadline)
+                    Text("Oshinghtom City")
+                        .font(.subheadline)
+                }
+            }.padding()
+        
+            // Spacer
+            Spacer()
+        }
     }
 }
 
