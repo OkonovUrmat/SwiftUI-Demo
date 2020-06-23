@@ -27,7 +27,7 @@ struct ContentView: View {
                 HStack {
                     Text("Sulaiman-Too")
                         .font(.subheadline)
-                    Text("Oshinghtom City")
+                    Text("Oshinghton City")
                         .font(.subheadline)
                 }
             }.padding()
