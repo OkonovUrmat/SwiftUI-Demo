@@ -15,6 +15,7 @@
 		3767ED7D2481670C00003003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3767ED7B2481670C00003003 /* LaunchScreen.storyboard */; };
 		3767ED8524816ED700003003 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3767ED8424816ED700003003 /* CircleImage.swift */; };
 		3767ED872481701B00003003 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3767ED862481701B00003003 /* MapView.swift */; };
+		37C0909A24A4DFB20097115F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0909924A4DFB20097115F /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3767ED7E2481670C00003003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3767ED8424816ED700003003 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		3767ED862481701B00003003 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		37C0909924A4DFB20097115F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				3767ED782481670C00003003 /* Preview Content */,
 				3767ED8424816ED700003003 /* CircleImage.swift */,
 				3767ED862481701B00003003 /* MapView.swift */,
+				37C0909924A4DFB20097115F /* DetailView.swift */,
 			);
 			path = "SwiftUI Demo";
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3767ED712481670B00003003 /* AppDelegate.swift in Sources */,
+				37C0909A24A4DFB20097115F /* DetailView.swift in Sources */,
 				3767ED8524816ED700003003 /* CircleImage.swift in Sources */,
 				3767ED872481701B00003003 /* MapView.swift in Sources */,
 				3767ED732481670B00003003 /* SceneDelegate.swift in Sources */,
